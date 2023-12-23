@@ -136,7 +136,6 @@ section {
   text-decoration: none;
   margin: 8px 0 0;
   cursor: pointer;
-  transition: .4s;
   color: #24303E;
 }
 
@@ -153,6 +152,7 @@ section {
   bottom: 0;
   z-index: -1;
   opacity: .25;
+  transition: .4s;
 }
 
 .yellow_line {
@@ -402,7 +402,7 @@ footer>.about {
 
   .nav_contact:hover {
     color: white;
-    opacity: 0.25;
+    background-color: #78cef5;
   }
 
   .text_container_header {
